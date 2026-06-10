@@ -1,0 +1,31 @@
+exp_name: mrpc_lora_r4_e3
+
+model_name: bert-base-uncased
+dataset_name: nyu-mll/glue
+task_name: mrpc
+
+method: lora
+rank: 4
+lora_alpha: 16
+lora_dropout: 0.1
+
+target_modules:
+  - query
+  - value
+
+max_length: 128
+num_train_epochs: 3
+learning_rate: 0.0002
+weight_decay: 0.01
+
+train_batch_size: 16
+eval_batch_size: 32
+
+seed: 42
+
+max_train_samples: null
+max_eval_samples: null
+
+output_dir: outputs/mrpc_lora_r4_e3
+logging_dir: results/logs/mrpc_lora_r4_e3
+metric_file: results/metrics/metrics.csv

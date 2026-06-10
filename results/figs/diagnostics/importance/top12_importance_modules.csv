@@ -1,0 +1,13 @@
+﻿step,layer,module_type,module_name,param_name,effective_rank,zero_count,max_rank,mean_abs_param,mean_abs_grad,mean_abs_param_grad,max_abs_param_grad,sum_abs_param_grad
+3750,9,Attention,value,base_model.model.bert.encoder.layer.9.attention.self.value.lora_E.default,11,1,12,0.098494254052639,0.0578001178801059,0.0069266878999769,0.0347192995250225,0.0831202566623687
+3750,11,Attention,value,base_model.model.bert.encoder.layer.11.attention.self.value.lora_E.default,8,4,12,0.0674662962555885,0.0408538207411766,0.005945146549493,0.0327653773128986,0.071341760456562
+3750,8,Attention,value,base_model.model.bert.encoder.layer.8.attention.self.value.lora_E.default,11,1,12,0.0730249509215354,0.031738881021738,0.0038096038624644,0.0135365147143602,0.0457152463495731
+3750,2,Attention,value,base_model.model.bert.encoder.layer.2.attention.self.value.lora_E.default,12,0,12,0.0238034222275018,0.0196989309042692,0.002769204089418,0.0324111096560955,0.0332304500043392
+3750,10,Attention,value,base_model.model.bert.encoder.layer.10.attention.self.value.lora_E.default,10,2,12,0.0509222038090229,0.0253484547138214,0.0026051616296172,0.0141988554969429,0.0312619395554065
+3750,0,Attention,value,base_model.model.bert.encoder.layer.0.attention.self.value.lora_E.default,10,2,12,0.0132187716662883,0.024546543136239,0.0015797700034454,0.0118821151554584,0.0189572405070066
+3750,7,Attention,value,base_model.model.bert.encoder.layer.7.attention.self.value.lora_E.default,11,1,12,0.0498555861413478,0.0121745243668556,0.0012796090450137,0.0067790378816425,0.0153553085401654
+3750,4,Attention,value,base_model.model.bert.encoder.layer.4.attention.self.value.lora_E.default,9,3,12,0.0107008256018161,0.0186246950179338,0.0012556941946968,0.0150683289393782,0.0150683298707008
+3750,5,Attention,value,base_model.model.bert.encoder.layer.5.attention.self.value.lora_E.default,12,0,12,0.0208334494382143,0.0113808633759617,0.0008754974696785,0.0078736525028944,0.0105059696361422
+3750,1,Attention,value,base_model.model.bert.encoder.layer.1.attention.self.value.lora_E.default,8,4,12,0.01233587320894,0.0078993085771799,0.0007260608836077,0.0087127294391393,0.0087127303704619
+3750,6,Attention,value,base_model.model.bert.encoder.layer.6.attention.self.value.lora_E.default,10,2,12,0.0300140921026468,0.0100275417789816,0.0005810324801132,0.0027274540625512,0.0069723897613584
+3750,3,Attention,value,base_model.model.bert.encoder.layer.3.attention.self.value.lora_E.default,9,3,12,0.0192457940429449,0.0071626473218202,0.0003983613569289,0.0026725551579147,0.0047803362831473

@@ -1,4 +1,8 @@
-# Byte-compiled / optimized / DLL files
+/.hf_cache
+/.venv
+/files.txt
+/outputs
+/readfiles.py# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class

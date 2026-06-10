@@ -1,0 +1,7 @@
+﻿exp_name,dataset,method,rank,trainable_params,trainable_ratio_percent,eval_loss,accuracy,f1,train_time_sec
+sst2_lora_r4_e3,sst2,lora,4,148994,0.1359,0.265216,0.885321,0.889381,41.89
+sst2_adalora_r4_e3,sst2,adalora,4,296642,0.2702,0.362521,0.848624,0.858672,59.97
+mrpc_lora_r4_e3,mrpc,lora,4,148994,0.1359,0.419614,0.828431,0.880952,37.46
+mrpc_adalora_r4_e3,mrpc,adalora,4,296642,0.2702,0.618161,0.683824,0.812227,46.48
+rte_lora_r4_e3,rte,lora,4,148994,0.1359,0.679019,0.570397,0.48927,36.02
+rte_adalora_r4_e3,rte,adalora,4,296642,0.2702,0.692251,0.472924,0.642157,42.25

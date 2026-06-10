@@ -1,0 +1,4 @@
+﻿exp_name,module_type,rank,trainable_params,trainable_ratio_percent,eval_loss,accuracy,f1,train_time_sec
+sst2_attn_lora_r4_e3,Attention-only,4,148994,0.1359,0.265216,0.885321,0.889381,40.65
+sst2_ffn_lora_r4_e3,FFN-only,4,370178,0.337,0.280682,0.892202,0.897603,40.9
+sst2_full_lora_r4_e3,Attention+FFN,4,517634,0.4706,0.306515,0.894495,0.898455,51.2

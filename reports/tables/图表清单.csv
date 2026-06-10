@@ -1,0 +1,40 @@
+﻿figure_name,path,group,suggested_section
+module_ablation_accuracy.png,results/figs/comparison/ablation/module_ablation_accuracy.png,ablation,模块消融实验
+module_ablation_f1.png,results/figs/comparison/ablation/module_ablation_f1.png,ablation,模块消融实验
+module_param_accuracy.png,results/figs/comparison/ablation/module_param_accuracy.png,ablation,模块消融实验
+module_train_time.png,results/figs/comparison/ablation/module_train_time.png,ablation,模块消融实验
+budget_accuracy_f1.png,results/figs/budget/budget_accuracy_f1.png,budget,预算调度策略分析
+budget_query_value_rank.png,results/figs/budget/budget_query_value_rank.png,budget,预算调度策略分析
+budget_rank_distribution_fast.png,results/figs/budget/budget_rank_distribution_fast.png,budget,预算调度策略分析
+budget_rank_distribution_slow.png,results/figs/budget/budget_rank_distribution_slow.png,budget,预算调度策略分析
+budget_rank_distribution_strict.png,results/figs/budget/budget_rank_distribution_strict.png,budget,严格 AdaLoRA 动态秩诊断
+budget_zero_count_curve.png,results/figs/budget/budget_zero_count_curve.png,budget,预算调度策略分析
+importance_change_curve.png,results/figs/diagnostics/importance/importance_change_curve.png,importance,重要性评分分析
+importance_heatmap.png,results/figs/diagnostics/importance/importance_heatmap.png,importance,重要性评分分析
+importance_vs_rank.png,results/figs/diagnostics/importance/importance_vs_rank.png,importance,重要性评分分析
+layer_importance.png,results/figs/diagnostics/importance/layer_importance.png,importance,重要性评分分析
+query_value_importance.png,results/figs/diagnostics/importance/query_value_importance.png,importance,重要性评分分析
+top12_importance_modules.png,results/figs/diagnostics/importance/top12_importance_modules.png,importance,模块消融实验
+multitask_accuracy.png,results/figs/comparison/multitask/multitask_accuracy.png,multitask,多任务泛化实验
+multitask_accuracy_gap.png,results/figs/comparison/multitask/multitask_accuracy_gap.png,multitask,多任务泛化实验
+multitask_f1.png,results/figs/comparison/multitask/multitask_f1.png,multitask,多任务泛化实验
+multitask_train_time.png,results/figs/comparison/multitask/multitask_train_time.png,multitask,多任务泛化实验
+layer_group_rank.png,results/figs/diagnostics/rank_strength/layer_group_rank.png,rank_strength,Rank 强度分析
+layer_total_rank.png,results/figs/diagnostics/rank_strength/layer_total_rank.png,rank_strength,Rank 强度分析
+module_rank_bar.png,results/figs/diagnostics/rank_strength/module_rank_bar.png,rank_strength,模块消融实验
+rank_change_curve.png,results/figs/diagnostics/rank_strength/rank_change_curve.png,rank_strength,Rank 强度分析
+rank_heatmap.png,results/figs/diagnostics/rank_strength/rank_heatmap.png,rank_strength,Rank 强度分析
+adarank_dimension_bar.png,results/figs/score/adarank_dimension_bar.png,score,AdaRank Score 多维评分
+adarank_score_bar.png,results/figs/score/adarank_score_bar.png,score,AdaRank Score 多维评分
+adarank_score_radar.png,results/figs/score/adarank_score_radar.png,score,AdaRank Score 多维评分
+sst2_acc_rank.png,results/figs/comparison/sst2_rank/sst2_acc_rank.png,sst2_rank,SST-2 多 rank 对比实验
+sst2_eval_loss_curve.png,results/figs/comparison/sst2_rank/sst2_eval_loss_curve.png,sst2_rank,SST-2 多 rank 对比实验
+sst2_f1_rank.png,results/figs/comparison/sst2_rank/sst2_f1_rank.png,sst2_rank,SST-2 多 rank 对比实验
+sst2_pareto_acc.png,results/figs/comparison/sst2_rank/sst2_pareto_acc.png,sst2_rank,SST-2 多 rank 对比实验
+sst2_train_time.png,results/figs/comparison/sst2_rank/sst2_train_time.png,sst2_rank,SST-2 多 rank 对比实验
+strict_layer_rank.png,results/figs/diagnostics/strict_rank/strict_layer_rank.png,strict_rank,严格 AdaLoRA 动态秩诊断
+strict_query_value_rank.png,results/figs/diagnostics/strict_rank/strict_query_value_rank.png,strict_rank,严格 AdaLoRA 动态秩诊断
+strict_rank_change_curve.png,results/figs/diagnostics/strict_rank/strict_rank_change_curve.png,strict_rank,严格 AdaLoRA 动态秩诊断
+strict_rank_distribution.png,results/figs/diagnostics/strict_rank/strict_rank_distribution.png,strict_rank,严格 AdaLoRA 动态秩诊断
+strict_rank_heatmap.png,results/figs/diagnostics/strict_rank/strict_rank_heatmap.png,strict_rank,严格 AdaLoRA 动态秩诊断
+strict_zero_count_curve.png,results/figs/diagnostics/strict_rank/strict_zero_count_curve.png,strict_rank,严格 AdaLoRA 动态秩诊断

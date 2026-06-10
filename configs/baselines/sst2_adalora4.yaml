@@ -1,0 +1,40 @@
+exp_name: sst2_adalora_r4
+
+model_name: bert-base-uncased
+dataset_name: nyu-mll/glue
+task_name: sst2
+
+method: adalora
+rank: 4
+
+init_r: 8
+target_r: 4
+lora_alpha: 16
+lora_dropout: 0.1
+
+target_modules:
+  - query
+  - value
+
+total_step: 125
+tinit: 20
+tfinal: 100
+deltaT: 10
+orth_reg_weight: 0.5
+
+max_length: 128
+num_train_epochs: 1
+learning_rate: 0.0002
+weight_decay: 0.01
+
+train_batch_size: 16
+eval_batch_size: 32
+
+seed: 42
+
+max_train_samples: 2000
+max_eval_samples: 500
+
+output_dir: outputs/sst2_adalora_r4
+logging_dir: results/logs/sst2_adalora_r4
+metric_file: results/metrics/metrics.csv

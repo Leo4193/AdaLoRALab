@@ -1,0 +1,40 @@
+exp_name: rte_adalora_r4_e3
+
+model_name: bert-base-uncased
+dataset_name: nyu-mll/glue
+task_name: rte
+
+method: adalora
+rank: 4
+
+init_r: 8
+target_r: 4
+lora_alpha: 16
+lora_dropout: 0.1
+
+target_modules:
+  - query
+  - value
+
+total_step: 468
+tinit: 50
+tfinal: 380
+deltaT: 25
+orth_reg_weight: 0.1
+
+max_length: 128
+num_train_epochs: 3
+learning_rate: 0.0002
+weight_decay: 0.01
+
+train_batch_size: 16
+eval_batch_size: 32
+
+seed: 42
+
+max_train_samples: null
+max_eval_samples: null
+
+output_dir: outputs/rte_adalora_r4_e3
+logging_dir: results/logs/rte_adalora_r4_e3
+metric_file: results/metrics/metrics.csv
